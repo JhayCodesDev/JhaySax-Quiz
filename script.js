@@ -64,35 +64,40 @@ const displayQuiz = function () {
     if (q.type === "number") {
       let num = Number(userInput);
       if (!isNaN(num) && num === q.answer) {
-        document.getElementById("demo").innerHTML =
+        document.querySelector(".demo").textContent =
           "correct Answer ✅ one coke dey for you!!! 😉";
         score++;
       } else {
-        document.getElementById("demo").innerHTML =
+        document.querySelector(".demo").textContent =
           "Wrong answer ❌ coke no dey for you oooo 😂😂😂";
       }
     } else if (q.type === "string") {
       if (userInput === q.answer) {
-        document.getElementById("demo").innerHTML =
+        document.querySelector(".demo").textContent =
           "correct Answer ✅ one coke dey for you!!! 😉";
         score++;
       } else {
-        document.getElementById("demo").innerHTML =
+        document.querySelector(".demo").textContent =
           "Wrong answer ❌ coke no dey for you oooo 😂😂😂";
       }
     }
   }
+
   if (score <= 4) {
-    document.getElementById(
-      "demo"
-    ).innerHTML = `you scored ${score} out of ${questions.length} that's bad 👎 Coke no dey for you 😂😂😂`;
+    document.querySelector(
+      ".demo"
+    ).textContent = `you scored ${score} out of ${questions.length} that's bad 👎 Coke no dey for you 😂😂😂`;
   } else if (score > 5 && score <= 7) {
-    document.getElementById(
-      "demo"
-    ).innerHTML = `you scored ${score} out of ${questions.length} you tried Coke dey for you buh na small ooo 😂😂😂`;
+    document.querySelector(
+      ".demo"
+    ).textContent = `you scored ${score} out of ${questions.length} you tried Coke dey for you buh na small ooo 😂😂😂`;
   } else if (score >= 8 && score === 10) {
-    document.getElementById(
-      "demo"
-    ).innerHTML = `you scored ${score} out of ${questions.length} you be agba 🙌🙌 Coke dey for you 💯`;
+    document.querySelector(
+      ".demo"
+    ).textContent = `you scored ${score} out of ${questions.length} you be agba 🙌🙌 Coke dey for you 💯`;
   }
 };
+
+document.querySelector(".reload").addEventListener("click", function () {
+  return location.reload();
+});

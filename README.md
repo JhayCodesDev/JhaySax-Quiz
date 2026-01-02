@@ -76,7 +76,7 @@ git clone https://github.com/JhayCodesDev/JhaySax-Quiz.git
 
 3. After the last question your score displays instantly
 
-4. Try again to beat your previous score 🏆
+4. Use the Reload Page button to clear your current score and click the Start Question button again to beat your previous score 🏆
 
 ## Author
 
