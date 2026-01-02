@@ -1,0 +1,60 @@
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 15px;
+  text-align: center;
+  color: #000;
+  text-transform: uppercase;
+  font-family: "Times New Roman", Times, serif;
+}
+
+p:nth-of-type(1) {
+  text-align: center;
+  font-size: 12px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.demo {
+  width: 80%;
+  height: 300px;
+  background: lightgreen;
+  border: solid 4px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background: #1e3a8a;
+  color: #fff;
+  width: 120px;
+  height: 35px;
+  border-radius: 40px;
+  position: relative;
+  top: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  p:nth-of-type(1) {
+    font-size: 20px;
+  }
+
+  .demo {
+    width: 60%;
+  }
+
+  button {
+    width: 150px;
+    height: 50px;
+  }
+}
