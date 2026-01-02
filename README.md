@@ -70,7 +70,7 @@ git clone https://github.com/JhayCodesDev/JhaySax-Quiz.git
 
 ## How to Play
 
-1. Click the Start Quiz button
+1. Click the Start Question button
 
 2. Input your answer for each question
 
