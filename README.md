@@ -26,8 +26,8 @@ The goal of this project is to create a clean and responsive quiz application. U
 
 ## Screenshot
 
-![Mobile View](./Screenshot%202026-01-02%20135107.png)  
-![Desktop View](./Screenshot%202026-01-02%20135038.png)
+![Mobile View](./Screenshot%202026-01-03%20033518.png)  
+![Desktop View](./Screenshot%202026-01-03%20033452.png)
 
 ---
 
