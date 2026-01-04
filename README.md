@@ -14,7 +14,6 @@ A responsive quiz project built to sharpen my skills in object destructuring, if
 - [Getting Started](#getting-started)
 - [How to Play](#how-to-play)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ---
 
